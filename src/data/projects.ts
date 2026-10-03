@@ -16,7 +16,7 @@ export const projects = [
     description: "A high-performance, minimalist portfolio featuring dark mode support, smooth animations with Framer Motion, and a fully responsive design built for professional impact.",
     techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion", "TypeScript"],
     image: "portfolio_v1.jpg",
-    liveUrl: "https://ais-pre-xdgidyphrxrgllbzmgleah-72429909527.asia-southeast1.run.app",
+    liveUrl: "https://entrinax22.github.io/Portfoliov2_2026/",
     githubUrl: "https://github.com/johnmarkentrina",
     category: "React",
     embeddable: true,
