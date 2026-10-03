@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+body {
+  @apply bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-200 overflow-x-hidden font-sans transition-colors duration-300;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full border-2 border-slate-950 hover:bg-white/20 transition-colors;
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, .font-serif {
+  @apply font-serif italic tracking-tight;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* Glassmorphism utility */
+.glass {
+  @apply bg-white/[0.03] backdrop-blur-md border border-white/10;
+}
