@@ -11,7 +11,7 @@ export const profile = {
     github: "https://github.com/entrinax22",
     linkedin: "https://www.linkedin.com/in/john-mark-entrina-744b16304?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     email: "mark.entrina12@gmail.com",
-    cvUrl: "/resume.pdf", // Path to the resume file in the public folder
+    cvUrl: "resume.pdf", // Path to the resume file in the public folder
   },
-  avatar: "/Profile_Picture.jpg",
+  avatar: "Profile_Picture.jpg",
 };
