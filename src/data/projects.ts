@@ -21,4 +21,15 @@ export const projects = [
     category: "React",
     embeddable: true,
   },
+  {
+    id: "3",
+    title: "CodeQuest",
+    description: "An interactive, gamified learning platform that guides users through coding challenges, interactive lessons, and developer-centric quests with a responsive and immersive dashboard.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Supabase", "Vite"],
+    image: "codequest.png",
+    liveUrl: "https://entrinax22.github.io/CodeQuest/",
+    githubUrl: "https://github.com/entrinax22/CodeQuest",
+    category: "React",
+    embeddable: true,
+  },
 ];
